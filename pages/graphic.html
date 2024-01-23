@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>App Design</title>
+
     <link rel="stylesheet" href="./style/normalize.css" />
-    <link rel="stylesheet" href="./style/home.css" />
+    <link rel="stylesheet" href="../style/app.css" />
   </head>
   <body>
     <!-- HEADER START -->
@@ -13,19 +14,19 @@
       <div class="header__wrapper container">
         <div>
           <a class="header__logo" href="#">
-            <img src="./images/site-logo.svg" alt="site-logo" />
+            <img src="../images/site-logo.svg" alt="site-logo" />
           </a>
         </div>
         <nav class="sitenav">
           <ul class="sitenav__list">
             <li class="sitenav__item">
-              <a href="./web.html" class="sitenav-link">OUR COMPANY</a>
+              <a href="" class="sitenav-link">OUR COMPANY</a>
             </li>
             <li class="sitenav__item">
-              <a href="./pages/app.html" class="sitenav-link">LOCATIONS</a>
+              <a href="" class="sitenav-link">LOCATIONS</a>
             </li>
             <li class="sitenav__item">
-              <a href="./pages/graphic.html" class="sitenav-link">CONTACT</a>
+              <a href="" class="sitenav-link">CONTACT</a>
             </li>
           </ul>
         </nav>
@@ -34,58 +35,68 @@
     <!-- HEADER END -->
 
     <!-- MAIN START -->
-    <section class="hero">
-      <div class="hero__continer container">
-        <div class="hero__content">
-          <h1 class="hero__title">
-            Award-winning custom designs and digital branding solutions
-          </h1>
-          <p class="hero__description">
-            With over 10 years in the industry, we are experienced in creating
-            fully responsive websites, app design, and engaging brand
-            experiences. Find out more about our services.
-          </p>
-          <a class="btn hero__btn" href="">Learn More</a>
-        </div>
-        <div class="hero__img">
-          <img src="./images/frame.png" alt="" width="560" height="635" />
-        </div>
-      </div>
-    </section>
+    <main class="main container">
+      <!-- HERO START -->
+      <section class="hero">
+        <h1 class="hero__title">App Design</h1>
+        <p>
+          We build websites that serve as powerful marketing tools <br />
+          and bring memorable brand experiences.
+        </p>
+      </section>
 
-    <section class="info">
-      <div class="info__wrapper container">
-        <ul class="info__list">
-          <li class="info__item">
-            <img class="info__img" src="./images/PASSIONATE.svg" alt="" />
-            <h3 class="info__title">PASSIONATE</h3>
-            <p class="info__description">
-              Each project starts with an in-depth brand research to ensure we
-              only create products that serve a purpose. We merge art, design,
-              and technology into exciting new solutions.
-            </p>
-          </li>
-          <li class="info__item">
-            <img class="info__img" src="./images/RESOURCEFUL.svg" alt="" />
-            <h3 class="info__title">RESOURCEFUL</h3>
-            <p class="info__description">
-              Everything that we do has a strategic purpose. We use an agile
-              approach in all of our projects and value customer collaboration.
-              It guarantees superior results that fulfill our clients’ needs.
-            </p>
-          </li>
-          <li class="info__item">
-            <img class="info__img" src="./images/friendly.svg" alt="" />
-            <h3 class="info__title">FRIENDLY</h3>
-            <p class="info__description">
-              We are a group of enthusiastic folks who know how to put people
-              first. Our success depends on our customers, and we strive to give
-              them the best experience a company can provide.
-            </p>
-          </li>
-        </ul>
-      </div>
-    </section>
+      <!-- HERO END -->
+
+      <!-- COLLECTION START -->
+
+      <section class="collection">
+        <div class="collection__first-wrapper">
+          <div class="collection__item">
+            <img src="../images/orange-book.png" alt="orange-book" />
+            <div class="collection__content">
+              <h4 class="collection__content-title">TIM BROWN</h4>
+              <p class="collection__content-text">
+                A book cover designed for Tim Brown’s new release, ‘Change’ air
+              </p>
+            </div>
+          </div>
+          <div class="collection__item">
+            <img src="../images/boxed-water.png" alt="boxed-water" />
+            <div class="collection__content">
+              <h4 class="collection__content-title">BOXED WATER</h4>
+              <p class="collection__content-text">
+                A book cover designed for Tim Brown’s new release, ‘Change’ any
+                time
+              </p>
+            </div>
+          </div>
+          <div class="collection__item">
+            <img src="../images/keeping-up.png" alt="keeping-up" />
+            <div class="collection__content">
+              <h4 class="collection__content-title">SCIENCE!</h4>
+              <p class="collection__content-text">
+                A poster made in collaboration with the Federal Art Project
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="black-mirror">
+        <div class="black-mirror__wrapper">
+          <div class="black-mirror__item1">
+            <h1 class="black-mirror__title">APP DESIGN</h1>
+            <p class="black-mirror__text">WEB DESIGN</p>
+          </div>
+          <div class="black-mirror__item2">
+            <h1 class="black-mirror__title">web DESIGN</h1>
+            <p class="black-mirror__text">VIEW PROJECTS</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- COLLECTION END -->
 
     <!-- MAIN END -->
 
@@ -181,6 +192,6 @@
         </div>
       </div>
     </footer>
-    <!--FOOTER END-->
+    <!-- FOOTER END -->
   </body>
 </html>
